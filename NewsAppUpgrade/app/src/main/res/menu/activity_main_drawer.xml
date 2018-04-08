@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/icon_sport"
+            android:title="Sport" />
+        <item
+            android:id="@+id/nav_film"
+            android:icon="@drawable/icon_film"
+            android:title="Films" />
+        <item
+            android:id="@+id/nav_country"
+            android:icon="@drawable/icon_country"
+            android:title="Country"/>
+        <item
+            android:id="@+id/nav_politics"
+            android:icon="@drawable/icon_politic"
+            android:title="Politics" />
+        <item
+            android:id="@+id/nav_football"
+            android:icon="@drawable/icon_football"
+            android:title="Football" />
+        <item
+            android:id="@+id/nav_environ"
+            android:icon="@drawable/icon_environment"
+            android:title="Environment" />
+        <item
+            android:id="@+id/nav_mediatv"
+            android:icon="@drawable/icon_media"
+            android:title="Media"  />
+
+    </group>
+
+
+
+</menu>
